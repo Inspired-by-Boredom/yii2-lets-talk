@@ -32,7 +32,11 @@
   },
   "autoload": {
     "psr-4": {
-      "vintage\\lets\\talk\\": "src",
+      "vintage\\lets\\talk\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "prs-4": {
       "vintage\\lets\\talk\\tests\\": "tests"
     }
   }
