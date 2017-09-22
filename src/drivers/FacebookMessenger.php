@@ -20,6 +20,12 @@ use vintage\lets\talk\base\MessengerDriver;
 class FacebookMessenger extends MessengerDriver
 {
     /**
+     * @var string Nickname from Facebook.
+     */
+    protected $contactData;
+
+
+    /**
      * Returns pattern.
      *
      * @return string

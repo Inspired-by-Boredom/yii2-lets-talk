@@ -21,6 +21,11 @@ use vintage\lets\talk\base\MessengerDriver;
 class Skype extends MessengerDriver
 {
     /**
+     * @var string Nickname from Skype.
+     */
+    protected $contactData;
+
+    /**
      * @var bool
      */
     private $_isCall = false;

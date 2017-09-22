@@ -21,6 +21,12 @@ use vintage\lets\talk\base\MessengerDriver;
 class Snapchat extends MessengerDriver
 {
     /**
+     * @var string Nickname from Snapchat.
+     */
+    protected $contactData;
+
+
+    /**
      * Returns pattern.
      *
      * @return string

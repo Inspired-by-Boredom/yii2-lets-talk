@@ -21,6 +21,12 @@ use vintage\lets\talk\base\MessengerDriver;
 class WhatsApp extends MessengerDriver
 {
     /**
+     * @var string Phone number from WhatsApp.
+     */
+    protected $contactData;
+
+
+    /**
      * Returns pattern.
      *
      * @return string

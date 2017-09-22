@@ -22,6 +22,12 @@ use vintage\lets\talk\base\MessengerDriver;
 class Telegram extends MessengerDriver
 {
     /**
+     * @var string Nickname from Telegram.
+     */
+    protected $contactData;
+
+
+    /**
      * Returns pattern.
      *
      * @return string

@@ -22,6 +22,12 @@ use vintage\lets\talk\base\MobileDriver;
 class Viber extends MessengerDriver implements MobileDriver
 {
     /**
+     * @var string Phone number from Viber.
+     */
+    protected $contactData;
+
+
+    /**
      * Returns pattern.
      *
      * @return string
