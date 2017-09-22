@@ -6,7 +6,7 @@
     <br>
 </p>
 
-With this extension you open chat in popular messengers from your website.
+With this extension you can open chat with someone in popular messengers across link on your website.
 
 Features: SEO support, easy creation of custom drivers for other messengers and more!
 

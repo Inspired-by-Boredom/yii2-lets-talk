@@ -1,6 +1,6 @@
 {
   "name": "vintage/yii2-lets-talk",
-  "description": "With this extension you open chat in popular messengers from your website",
+  "description": "With this extension you can open chat with someone in popular messengers across link on your website",
   "keywords": ["yii2", "widget", "messengers", "api"],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
