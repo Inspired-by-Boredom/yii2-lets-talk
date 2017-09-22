@@ -106,6 +106,9 @@ class Viber extends MessengerDriver implements MobileDriver
         return 'viber://chat?number={contact-data}';
     }
     
+    /**
+     * @inheritdoc
+     */
     public function getMobilePattern()
     {
         return 'viber://add?number={contact-data}';
