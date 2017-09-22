@@ -12,6 +12,9 @@ use vintage\lets\talk\base\MessengerDriver;
 /**
  * Driver for Facebook Messenger.
  *
+ * On desktop (Windows, Linux, Mac OS) will be opened in browser.
+ * On mobile devices with installed application will be opened chat in application.
+ *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  */
 class FacebookMessenger extends MessengerDriver

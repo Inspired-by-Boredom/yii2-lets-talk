@@ -12,6 +12,9 @@ use vintage\lets\talk\base\MessengerDriver;
 /**
  * Driver for Skype.
  *
+ * On desktop (Windows) with installed application will be opened chat/call in application.
+ * On mobile devices with installed application will be opened just application.
+ *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  * @since 1.0
  */

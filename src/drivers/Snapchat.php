@@ -12,6 +12,9 @@ use vintage\lets\talk\base\MessengerDriver;
 /**
  * Driver for Snapchat.
  *
+ * On desktop (Windows, Linux, Mas OS) will be opened in browser.
+ * On mobile devices with installed application will be opened contact in application.
+ *
  * @author Vladimir Kuprienko <vldmr.kuprienko@gmail.com>
  * @since 1.0
  */
