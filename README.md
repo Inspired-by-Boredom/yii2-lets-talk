@@ -11,6 +11,7 @@ With this extension you can open chat with someone in popular messengers across 
 Features: SEO support, easy creation of custom drivers for other messengers and more!
 
 [![Build Status](https://travis-ci.org/Vintage-web-production/yii2-lets-talk.svg?branch=master)](https://travis-ci.org/Vintage-web-production/yii2-lets-talk)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Vintage-web-production/yii2-lets-talk/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Vintage-web-production/yii2-lets-talk/?branch=master)
 [![Total Downloads](https://poser.pugx.org/vintage/yii2-lets-talk/downloads)](https://packagist.org/packages/vintage/yii2-lets-talk)
 [![Latest Stable Version](https://poser.pugx.org/vintage/yii2-lets-talk/v/stable)](CHANGELOG.md)
 [![Latest Unstable Version](https://poser.pugx.org/vintage/yii2-lets-talk/v/unstable)](CHANGELOG.md)
