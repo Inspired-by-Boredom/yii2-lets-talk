@@ -208,7 +208,6 @@ class LetsTalk extends Widget
     {
         $messengers = $this->_configurator->getMessengersConfig();
         $links = [];
-
         foreach ($messengers as $key => $messenger) {
             if (isset($messenger['class'])) {
                 $driver = $this->createDriver($messenger);
@@ -218,7 +217,6 @@ class LetsTalk extends Widget
                     $driver->getLink(),
                     $this->combineOptions($messenger)
                 );
-
                 if ($mobileLink = $driver->getMobileLink()) {
                     $links[] = Html::a(
                         $this->buildLabel($messenger, Inflector::camel2words($key)),
@@ -228,7 +226,6 @@ class LetsTalk extends Widget
                 }
             }
         }
-
         return $links;
     }
 
