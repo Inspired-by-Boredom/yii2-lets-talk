@@ -36,7 +36,7 @@ composer require vintage/yii2-lets-talk
 ```
 or add
 ```json
-"vintage/yii2-lets-talk": "dev-master"
+"vintage/yii2-lets-talk": "~1.0"
 ```
 to the require section of your composer.json.
 
